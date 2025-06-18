@@ -1,0 +1,13 @@
+public class Player {
+    private String name;
+    private boolean exper;
+
+    public Player(String name, boolean exper) {
+        this.name = name;
+        this.exper = exper;
+    }
+
+    public void print() {
+        System.out.println("Player: " + name + ", Experienced: " + exper);
+    }
+}
