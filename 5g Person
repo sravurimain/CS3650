@@ -1,0 +1,15 @@
+public class Person {
+    private String name;
+
+    public Person() {
+        this.name = "Unknown";
+    }
+
+    public void addWatch(Watch w) {
+        System.out.println("Added watch entry.");
+    }
+
+    public void getWatched() {
+        System.out.println("Retrieving watched movies.");
+    }
+}
