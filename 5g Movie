@@ -1,0 +1,17 @@
+public class Movie {
+    private String name;
+    private String genre;
+
+    public Movie() {
+        this.name = "Untitled";
+        this.genre = "Unknown";
+    }
+
+    public void addWatch(Watch w) {
+        System.out.println("Movie watch record added.");
+    }
+
+    public void getPersons() {
+        System.out.println("Getting people who watched this movie.");
+    }
+}
