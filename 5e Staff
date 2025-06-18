@@ -1,0 +1,8 @@
+public class Staff extends Employee {
+    private String role;
+
+    public Staff(String name, int hours, String role) {
+        super(name, hours);
+        this.role = role;
+    }
+}
