@@ -1,0 +1,9 @@
+public class Magazine implements SellableItem {
+    public Magazine() {
+        // no-arg constructor
+    }
+
+    public void sellCopy() {
+        System.out.println("Selling a magazine copy.");
+    }
+}
