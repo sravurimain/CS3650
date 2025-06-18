@@ -1,0 +1,9 @@
+public class Payroll {
+    public Payroll() {
+        // no-arg constructor
+    }
+
+    public void processPaymentList(Worker worker) {
+        System.out.println("Payment processed for worker " + worker.getName());
+    }
+}
