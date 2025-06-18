@@ -1,0 +1,22 @@
+public class Dog {
+    private String breed;
+    private String name;
+    private Paw paw;
+
+    public Dog() {
+        this.breed = "Unknown";
+        this.name = "Unnamed";
+        this.paw = null;
+    }
+
+    public void setPaw(Paw paw) {
+        this.paw = paw;
+    }
+
+    public void print() {
+        System.out.println("Dog: " + name + ", Breed: " + breed);
+        if (paw != null) {
+            paw.print();
+        }
+    }
+}
