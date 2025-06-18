@@ -1,0 +1,7 @@
+public class Watch {
+    private int rating;
+
+    public Watch(int rating) {
+        this.rating = rating;
+    }
+}
