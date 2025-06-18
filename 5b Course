@@ -1,0 +1,16 @@
+public class Course {
+    private String code;
+    private Book[] books;
+
+    public Course(String code, Book[] books) {
+        this.code = code;
+        this.books = books;
+    }
+
+    public void listBooks() {
+        System.out.println("Course: " + code);
+        for (Book book : books) {
+            book.printDetails();
+        }
+    }
+}
